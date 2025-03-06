@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Therapy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Mental Health Therapy</h2>
+        
+        <h3>How are you feeling today?</h3>
+        <div class="mood-tracker">
+            <button class="happy" onclick="setMood('Happy')">😊 Happy</button>
+            <button class="neutral" onclick="setMood('Neutral')">😐 Neutral</button>
+            <button class="sad" onclick="setMood('Sad')">😢 Sad</button>
+        </div>
+        <p id="mood-message"></p>
+        
+        <h3>Write your thoughts</h3>
+        <textarea id="journal" placeholder="Write here..."></textarea>
+        <br>
+        <button class="chatbot-btn">Chat with AI</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
